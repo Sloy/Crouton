@@ -81,3 +81,5 @@ artifacts {
   archives javadocJar
   archives jar
 }
+
+tasks.withType(Javadoc).all { enabled = false }
